@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Pizza</title>
+</head>
+<body>
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <P>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver an hour</P>
+
+    <form action="sukses.html">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>:
+                    <input type="text"required>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>:
+                    <input type="text"required>
+                </td>
+            </tr>
+            <tr>
+                <td>No.Handphone</td>
+                <td>:
+                    <input type="text">
+                </td> 
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Delivery Intructions</td>
+                <td>:
+                   <textarea maxlength="400" Placeholder="No more than 400 characters long" cols="22" rows="3"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <form>
+			<table>
+        
+      </table>
+		<fieldset>
+				<legend><b>Design Your Dream Pizza</b></legend>
+                <h4>Crust (Choose one):</h4>
+                <ul style="list-style: none;">
+                    <li>
+                        <input type="radio" id="white" name="Crust">
+                        <label for="white">Classic white</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Multigrain" name="Crust">
+                        <label for="Multigrain">Multigrain</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Una" name="Crust">
+                        <label for="Una">Una Melt</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Cheese" name="Crust">
+                        <label for="Cheese">Cheesy Galore</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="Meat" name="Crust">
+                        <label for="Meat">Meat Lovers</label>
+                    </li>
+                </ul>
+                
+
+                <h3>Toppings (choose as many as you want):</h3>
+                <ul style="list-style: none;">
+                    <li>
+                        <input type="checkbox">
+                        White Sauce
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Mozzarella Cheese
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Pepprerani
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Mushrooms
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Peppers
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Anchories
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Pineapple
+                    </li>
+                </ul>
+
+                <h3>Number</h3>
+                <label>How many Pizza: </label>
+                <input type="number" min="1"
+                max="6">
+
+                <input type="submit"
+                value="Bring me a Pizza">
+                <input type="reset">
+            </fieldset>
+            
+    </form>
+    
+
+</body>
+</html>
